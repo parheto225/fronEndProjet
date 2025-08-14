@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import person from '../assets/img/avatar.jpg';
 import Logo_Agrial from '../assets/img/new_logo_png.png';
 import logo_agromap from '../assets/img/logo_agromap1.png';
-// import logo_fildisi from '../assets/img/logo_fildisi.jpg';
+import logo_fildisi from '../assets/img/logo_fildisi.jpg';
 import Logo_COOPAAHS from '../assets/img/Logo_COOPAAHS.jpg';
 import { useTranslation } from "react-i18next";
 
@@ -45,7 +45,7 @@ function NavBar({user}){
             <li className="nav-item dropdown">
               <a className="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                   <div className="avatar avatar-l ">
-                    <img className="rounded" src={logo_agromap} alt="" style={{width: "200px", height: "80px", marginLeft: "-150px", marginTop: "-17px", borderRadius: "25px"}} />
+                    <img className="rounded" src={logo_fildisi} alt="" style={{width: "200px", height: "80px", marginLeft: "-150px", marginTop: "-17px", borderRadius: "25px"}} />
                   </div>
               </a>
               <div className="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border border-300" aria-labelledby="navbarDropdownUser">
@@ -53,7 +53,7 @@ function NavBar({user}){
                   <div className="card-body p-0">
                     <div className="text-center pt-4 pb-3">
                     <div className="avatar avatar-xl ">
-                        <img className="rounded" src={logo_agromap} alt="" style={{height: "75px", width:"165px", marginLeft: "-60px", borderRadius: "50%", marginBottom: "20px"}} />
+                        <img className="rounded" src={logo_fildisi} alt="" style={{height: "75px", width:"165px", marginLeft: "-60px", borderRadius: "50%", marginBottom: "20px"}} />
                       </div>
                       <h6 className="mt-5 text-black">{user?.nom} - {user?.prenom}</h6>
                     </div>
